@@ -1,0 +1,52 @@
+# Largage by Kellogg's#0001 for HeriaMC
+
+prefix: "&6Largage &7| "
+erreur: "&cErreur, vous n’avez pas accès à cette commande."
+non-joueur: "&cVous n'êtes pas un joueur"
+deja-lance: "&cL'évenement largage de type &c&l %TYPE% &cest déjà lancé"
+non-zone: "&cLa zone de largage n'est pas définie. &c&l/largage wand"
+non-lance: "&cCet événement n'est pas lancé"
+stop-event: "&cL'événement largage de type &c&l %TYPE% &cvient d'être stoppé par un administrateur"
+stop-all-event: "&cTous les largages ont été stoppés par un Administrateur"
+zero-event: "&cAucun événement n'est actuellement lancé"
+
+permission: "admin.largage"
+
+wand:
+  give: "&aVous venez de recevoir une hache de largage"
+  lore:
+    - "&6Ceci est la hache de largage"
+    - "&6Tu peux définir les zone de largage en"
+    - "&6sélectionnant une zone avec &aclique droit"
+    - "&6et &aclique gauche &6puis en faisant la commande"
+    - "&a/largage setzone <zone>"
+
+item:
+  time: 1200
+  zone: "&aTu viens de définir la zone de type &a&lItem"
+  fin: "&aL'événement largage de type &a&lItem &aest désormais fini"
+  timer: "&aL'événement largage de type &a&lItem &ase fini dans &a&l %TIMER% &asecondes"
+  commands:
+    - "say ohohohoh"
+    - "say one piece found"
+    - "say abracadabra"
+
+point:
+  time: 1200
+  zone: "&aTu viens de définir la zone de type &a&lPoint"
+  fin: "&aL'événement largage de type &a&lPoint &aest désormais fini"
+  timer: "&aL'événement largage de type &a&lPoint &ase fini dans &a&l %TIMER% &asecondes"
+  commands:
+    - "say ohohohoh"
+    - "say one piece found"
+    - "say abracadabra"
+
+argent:
+  time: 1200
+  zone: "&aTu viens de définir la zone de type &a&lArgent"
+  fin: "&aL'événement largage de type &a&lArgent &aest désormais fini"
+  timer: "&aL'événement largage de type &a&lArgent &ase fini dans &a&l %TIMER% &asecondes"
+  commands:
+    - "say ohohohoh"
+    - "say one piece found"
+    - "say abracadabra"

@@ -1,0 +1,6 @@
+name: "Largage"
+author: "Kellogg's#0001 | MrCyci6"
+version: "1.0.0-SNAPSHOT"
+main: fr.mrcyci6.largage.Largage
+commands:
+  largage:
